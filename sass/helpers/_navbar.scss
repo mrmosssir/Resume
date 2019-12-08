@@ -1,0 +1,62 @@
+.navbar {
+  background: transparent;
+  padding: 40px 0px;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-title {
+    a {
+      font-family: 'Sigmar One', cursive;
+      color: #543b32;
+    }
+    cursor: pointer;
+  }
+  &-list {
+    display: flex;
+    align-items: center;
+    li {
+      font-size: 18px;
+      letter-spacing: 1px;
+      color: #543b32;
+      margin: 0 16px;
+      cursor: pointer;
+      a {
+        color: #543b32;
+      }
+    }
+  }
+}
+  
+@media (max-width: 768px) {
+  .navbar .container {
+    position: relative;
+  }
+  .navbar-list-on {
+    height: 166px !important;
+  }
+  .navbar-list {
+    width: 100%;
+    height: 0px;
+    display: block;
+    position: absolute;
+    top: 48px;
+    text-align: center;
+    overflow: hidden;
+    transition: height 0.5s;
+    z-index: 3;
+    li {
+      background: #543b32;
+      margin: 0px;
+      border-bottom: 2px solid #fcf9f0; 
+      padding: 8px 0;
+      &:nth-child(4) {
+        border-width: 0px;
+      }
+      a {
+        color: #fcf9f0;
+      }
+    }
+  }
+}

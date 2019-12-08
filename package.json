@@ -1,0 +1,22 @@
+{
+  "name": "chen-blog",
+  "version": "1.0.0",
+  "description": "blog resume",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2",
+    "gulp-watch": "^5.0.1",
+    "node-sass": "^4.13.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "resume"
+  },
+  "author": "",
+  "license": "ISC"
+}

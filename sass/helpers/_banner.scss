@@ -1,0 +1,43 @@
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .banner-title {
+    opacity: 0;
+    transition: opacity 5s;
+    h2 {
+      text-align: center;
+      color: white;
+      font-family: Helvetica, Arial;
+      font-weight: 700;
+      font-size: 64px;
+    }
+    p {
+      color: white;
+      font-size: 20px;
+      letter-spacing: 2px;
+      text-align: center;
+    }
+    hr {
+      border-width: 0px;
+      height: 3px !important;
+      width: 300px;
+      background: white;
+      margin: 30px auto;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .banner {
+    height: auto;
+    display: block;
+    padding: 40% 0;
+    &-title {
+      h2 {
+        font-size: 36px !important;
+      }
+    }
+  }
+}
