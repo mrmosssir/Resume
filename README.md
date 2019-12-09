@@ -26,12 +26,12 @@
 ### Python
   * 了解基本語法，且有使用 Python 操作 MySQL 之經驗
 
-## Work Experience
+## 經驗 Experience
   ### 南臺科技大學, 兼任計畫助理, Feb 2019 ~ Jul 2019
   *  協助專任助理研究相關論文
   *  Bootstrap網頁切版及感測器API串接
   *  訓練樣本擷取工具開發，縮短了整體訓練取樣的時間
   *  負責與學校溝通
 
-## Currently studying
-  ### 目前在深入學習 Webpack 應用，了解 Webpack 的打包方式。
+## 目前投入項目 Currently studying
+  ### 深入學習 Webpack 應用，了解 Webpack 的打包方式。
